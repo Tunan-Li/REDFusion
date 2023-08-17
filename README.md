@@ -8,8 +8,12 @@ This is the implementation of REDFusion (AAAI 2024 under review).
 # Enviroment
 ```
 torch==1.10.1
-torchvision
+torchvision==0.11.2
 sklearn
 pytorch-pretrained-bert
 tqdm
+```
+## Command for trianing
+```
+bash shells/batch_train_early_wd.sh
 ```
